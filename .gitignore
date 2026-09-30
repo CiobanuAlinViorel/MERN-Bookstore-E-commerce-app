@@ -1,0 +1,23 @@
+# Dependentele
+node_modules/
+
+#Variabile de mediu
+.env
+.env.local
+.env.*.local
+
+#Build uri si rapoarte
+dist/
+build/
+coverage/
+
+#Jurnale 
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+#Fisiere sistem si editor
+.DS_Store
+Thumbs.db
+.idea/
